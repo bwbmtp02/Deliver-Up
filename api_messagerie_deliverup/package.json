@@ -1,0 +1,27 @@
+{
+  "name": "serveurmessagerie",
+  "version": "1.0.0",
+  "description": "serveurChat",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "deliverup",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.15",
+    "mongoose-bcrypt": "^1.9.0",
+    "mongoose-geojson-schema": "^2.1.5",
+    "socket.io": "^3.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
